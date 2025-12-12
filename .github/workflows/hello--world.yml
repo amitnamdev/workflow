@@ -2,7 +2,9 @@ name: hello workd
 
 on:
   push:
-    branches:[main,develop,other]
+    branches:
+      - main
+      - develop
 
 jobs:
   build:

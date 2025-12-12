@@ -1,6 +1,8 @@
 name: hello workd
 
-on: [push]
+on:
+  push:
+    branches:[main,develop,other]
 
 jobs:
   build:
